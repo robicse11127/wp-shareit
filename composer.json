@@ -1,0 +1,18 @@
+{
+    "name": "rabiul/wp-shareit",
+    "description": "A social share plugin for WordPress",
+    "authors": [
+        {
+            "name": "MD Rabiul Islam",
+            "email": "robizmailbox@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WPShareit\\Admin\\": "admin/",
+            "WPShareit\\Frontend\\": "frontend/"
+        },
+        "files": [ ]
+    }
+}
